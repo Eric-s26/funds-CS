@@ -1,0 +1,74 @@
+.body {
+  padding: 0;
+  margin: 0;
+}
+
+.main-div {
+  border: green 2px;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  flex-wrap: wrap;
+}
+.refs {
+  /**margin: auto;**/
+  display: flex;
+  list-style-type: none;
+  /**justify-content: space-around;**/
+  background-color: green;
+  color: green;
+  padding: 20px;
+}
+.refs li {
+  padding-right: 30px;
+}
+.refs a {
+  color: white;
+  padding-top: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.refs a:hover {
+  background-color: black;
+  color: aqua;
+}
+.heading1 {
+  text-decoration: underline burlywood;
+}
+.div1 {
+  border: blue solid 1px;
+  flex-basis: 28%;
+  border-radius: 30px;
+  text-align: center;
+}
+.div2 {
+  border: red solid 1px;
+  flex-basis: 38%;
+  border-radius: 30px;
+}
+.div3 {
+  border: gold solid 1px;
+  flex-basis: 28%;
+  border-radius: 30px;
+}
+#Faculty {
+  text-decoration: underline blue;
+}
+#logo {
+  width: fit-content;
+  height: 250px;
+  border-radius: 20px;
+}
+.red-button {
+  background-color: red;
+  padding: 20px 30px;
+  margin: 10px;
+}
+.green-button {
+  background-color: green;
+  padding: 20px 30px;
+  margin: 10px;
+}
+.box-model {
+  border: black solid 3px;
+}

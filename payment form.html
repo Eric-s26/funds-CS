@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>payment form</title>
+    <link rel="stylesheet" href="crv.css">
+  </head>
+  <body>
+  <div class="links">
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="blogpost.html">BLOGPOST</a></li>
+    <li><a href="TIMETABLE.html">TIMETABLE</a></li>
+  </div>
+    <form action="" method="post">
+      <h4>Please enter your membership details</h4>
+      <label>Firstname : </label>
+      <input typr="text" name="firstname"><br/><br/>
+      <label for="">Lastname :</label>
+      <input type="text" name="lastname"><br><br>
+      <label>Email Address : </label>
+      <input type="email" name="email"><br><br>
+      <label>Password:</label>
+      <input type="password"><br><br>
+      <Label>Gender:</Label>
+      <input type="radio" name="gender" value="male"> <label>MALE</label>
+      <input type="radio" name="gender" value="female"> <label>FEMALE</label>
+      <p>Payment method :
+        <input type="radio" name="payment" value="cash"> <label>Cash</label>
+        <input type="radio" name="payment" value="cheque"> <label>Cheque</label>
+        <input type="radio" name="payment" value="credit"> <label>Creddit</label>
+      </p>
+      <p>
+        Communication Preferences :
+        <input type="checkbox" name="email" value="yes"> <label>Email</label>
+        <input type="checkbox" name="newsletter" value="yes"> <label>News Letter</label>
+        <input type="checkbox" name="phone" value="yes"> <label>Phone</label>
+      </p>
+
+      <p>
+        Membership Type :
+        <select name="membership">
+            <option value="parttime">Part Time</option>
+            <option value="fulltime" selected>Full Time</option>
+        </select>
+      </p>
+      <input type="submit" value="Register">
+      <input type="reset" value="cancel">
+
+    </form>
+  </body>
+</html>

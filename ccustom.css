@@ -1,0 +1,63 @@
+.navbar{
+    border-radius: 40px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.orangediv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left:50px;
+    margin-top: 50px;
+    font-family:    sans-serif;
+}
+
+.orangediv h1{
+    font-size: 45px;
+}
+
+.orangediv p{
+    font-size: 25px;
+}
+
+.emailform{
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.emailbutton{
+    background-color: black;
+    padding: 10px 50px;
+    border-radius: 10px ;
+    color: white;
+
+}
+.photo{
+    border-radius: 50px;
+}
+.parent-card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.card{
+    margin: 20px;
+}
+.card-img-top{
+    height: 300px;
+}
+.card:hover{
+    transform: translateY(-20px);
+    
+}
+.text{
+    text-align: center;
+}
+#dot{
+  height: 20px;
+  background-color: black; 
+}
